@@ -1,0 +1,3 @@
+# AngryBirdsStage7
+Making an API call involves some network requests and takes a little time. However, Javascript executes this synchronously. It means that it executes one line after the other. It will not wait for the ‘fetch API call’ to be completed before moving to the next line. However, we want it to wait for the API call to be completed. We do this by adding await before fetch(). It tells the computer to wait for the API call to be completed before moving to the next lines.
+Now, we have written an asynchronous function - a function which waits for some lines to be completed before jumping to the next line. We must tell the computer that getTime() is an async function so that it knows what to do
